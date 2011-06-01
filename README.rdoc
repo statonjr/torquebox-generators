@@ -1,11 +1,11 @@
 = torquebox-generators
 
-Rails generators for apps using Torquebox (http://www.torquebox.org).
+Rails generators for apps using TorqueBox (http://www.torquebox.org).
 
 Two generators are provided:
 
-1. rails g service MyService
-2. rails g job MyJob
+1. rails g torquebox:service MyService
+2. rails g torquebox:job MyJob
 
 == Contributing to torquebox-generators
 
