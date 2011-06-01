@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{torquebox-generators}
-  s.version = "0.0.1"
+  s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Larry Staton Jr."]
@@ -24,12 +24,12 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
-    "lib/generators/job/USAGE",
-    "lib/generators/job/job_generator.rb",
-    "lib/generators/job/templates/job.rb.erb",
-    "lib/generators/service/USAGE",
-    "lib/generators/service/service_generator.rb",
-    "lib/generators/service/templates/service.rb.erb",
+    "lib/generators/torquebox/job/USAGE",
+    "lib/generators/torquebox/job/job_generator.rb",
+    "lib/generators/torquebox/job/templates/job.rb.erb",
+    "lib/generators/torquebox/service/USAGE",
+    "lib/generators/torquebox/service/service_generator.rb",
+    "lib/generators/torquebox/service/templates/service.rb.erb",
     "torquebox-generators.gemspec"
   ]
   s.homepage = %q{http://github.com/statonjr/torquebox-generators}
