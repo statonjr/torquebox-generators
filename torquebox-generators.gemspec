@@ -29,7 +29,8 @@ Gem::Specification.new do |s|
     "lib/generators/job/templates/job.rb.erb",
     "lib/generators/service/USAGE",
     "lib/generators/service/service_generator.rb",
-    "lib/generators/service/templates/service.rb.erb"
+    "lib/generators/service/templates/service.rb.erb",
+    "torquebox-generators.gemspec"
   ]
   s.homepage = %q{http://github.com/statonjr/torquebox-generators}
   s.licenses = ["MIT"]
