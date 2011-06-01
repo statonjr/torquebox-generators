@@ -3,7 +3,7 @@ Description:
     This generator creates a Ruby class that implements initialize(Hash), start() and stop() methods.
 
 Example:
-    rails g torquebox:service MyService
+    rails g torque_box:service MyService
 
     This will create:
         app/services/my_service.rb
