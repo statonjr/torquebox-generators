@@ -7,7 +7,7 @@ Description:
     This generator creates a Ruby class that implements a run() method.
 
 Example:
-    rails g torque_box:job MyJob
+    rails g torquebox:job MyJob
 
     This will create:
         app/jobs/my_job.rb

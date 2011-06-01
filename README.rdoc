@@ -1,16 +1,16 @@
 = torquebox-generators
 
-Rails generators for apps using TorqueBox (http://www.torquebox.org).
+Rails 3 generators for apps using TorqueBox (http://www.torquebox.org).
 
 Add "torquebox-generators" to your Gemfile, then "bundle install".
 
 Two generator commands are provided:
 
-1. rails g torque_box:service MyService
+1. rails g torquebox:service MyService
 
 This command creates a Ruby class at app/services/my_service.rb with 4 predefined methods.
 
-2. rails g torque_box:job MyJob
+2. rails g torquebox:job MyJob
 
 This command creates a Ruby class at app/jobs/my_job.rb with a predefined run method.
 
