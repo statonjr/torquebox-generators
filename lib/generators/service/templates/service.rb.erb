@@ -1,0 +1,18 @@
+class <%= name %>
+  def intialize(opts={})
+    @running = true
+  end
+
+  def start
+    @thread = Thread.new { run }
+  end
+
+  def stop
+    @running = false
+    @thread.join
+  end
+
+  def run
+    # Process data
+  end
+end

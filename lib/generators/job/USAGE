@@ -1,0 +1,13 @@
+Description:
+    Scheduled jobs are simply components that execute on a possibly-recurring schedule instead of in response to user interaction.
+    Scheduled jobs fire asynchronously, outside of the normal web-browser thread-of-control.
+    Scheduled jobs have full access to the entire Ruby environment.
+    This allows them to interact with database models and other application functionality.
+
+    This generator creates a Ruby class that implements a run() method.
+
+Example:
+    rails g job MyJob
+
+    This will create:
+        app/jobs/my_job.rb

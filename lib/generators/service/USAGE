@@ -1,0 +1,9 @@
+Description:
+    Services are persistent background Ruby daemons deployed and managed by TorqueBox.
+    This generator creates a Ruby class that implements initialize(Hash), start() and stop() methods.
+
+Example:
+    rails g service MyService
+
+    This will create:
+        app/services/my_service.rb
